@@ -1,6 +1,6 @@
 # Email Automation with Nodemailer
 
-This Node.js script is designed to send an email with an HTML-formatted table and an attached Excel file generated from a JSON data file. The script uses the `nodemailer` package for sending emails and the `xlsx` package for creating Excel files.
+This project is a Node.js script designed to automate the process of sending emails with dynamically generated content. Specifically, it reads data from a JSON file, converts this data into a formatted HTML table, and creates an Excel file as an attachment. The script then sends an email that includes the HTML table in the body and the Excel file as an attachment using the nodemailer package.
 
 ## Prerequisites
 
